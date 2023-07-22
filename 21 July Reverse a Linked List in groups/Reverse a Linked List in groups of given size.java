@@ -99,9 +99,7 @@
                 count++; 
             } 
       
-            /* next is now a pointer to (k+1)th node  
-               Recursively call for the list starting from current. 
-               And make rest of the list as next of first node */
+            
             if (next != null)  
                 node.next = reverse(next, k); 
       
